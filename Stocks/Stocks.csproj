@@ -9,4 +9,9 @@
     <PackageReference Include="NLog.Extensions.Logging" Version="1.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KainLabs.Siren\KainLabs.Siren.csproj" />
+    <ProjectReference Include="..\Stocks.Data\Stocks.Data.csproj" />
+  </ItemGroup>
+
 </Project>
